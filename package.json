@@ -1,0 +1,22 @@
+{
+  "name": "bakery-system-backend",
+  "version": "1.0.0",
+  "description": "Backend para la gestión de procesos de una panadería",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Tests pendientes\""
+  },
+  "keywords": [
+    "bakery",
+    "express",
+    "mysql",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
